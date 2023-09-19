@@ -70,3 +70,61 @@ pre {
     border-radius: 8px;
     font-family: monospace;
 }
+
+
+
+
+
+
+/* External CSS styles for the Meta Tag Analyzer box */
+
+.meta-box {
+    border: 2px solid #9ea2a4;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: #f7f7f7;
+}
+
+.meta-box h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+#urlForm {
+    margin-top: 20px;
+}
+
+#urlForm label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#urlForm input[type="url"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+#urlForm button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#urlForm button:hover {
+    background-color: #ffcb2e;
+}
+
+#metaAnalyzer {
+    margin-top: 20px;
+    width: 77%;
+}
